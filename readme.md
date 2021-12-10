@@ -1,0 +1,1 @@
+#Para realizar os passos do checkpoint , comece pelo arquivo curso.js ,posteriormente ir para aluno.js para verificar o sistema de faltas e assim posteriormente o proprio código será auto explicado
