@@ -10,14 +10,13 @@ let envio = function Aluno(nome,quantidadeDeFaltas,notas){
             item=>{
                 soma +=item;
             }
-        )
+        );
         media =soma/ this.notas.length;
         return media;
-    }
+    };
 
     this.falta= function(){
         this.quantidadeDeFaltas+=1;
-    }
-}
-
+    };
+};
 module.exports = envio;
