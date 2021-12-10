@@ -1,0 +1,12 @@
+let alunos1 = require('../object-aluno');
+let felippe = new alunos1('Felippe Guedes' ,6,[0,6,7,0,6]);
+let alisson = new alunos1('Alisson Felipe' ,0,[5,6,10,8,6]);
+let bruno = new alunos1('Bruno Andrade' ,0,[10,6,7,5,6]);
+let lohan = new alunos1('Lohan Guedes' ,6,[5,2,7,5,3]);
+let lucas = new alunos1('Lucas Guedes' ,4,[5,2,7,5,9]);
+//felippe.falta();
+//console.log(felippe);
+//alisson.falta();
+//console.log(alisson);
+const estudantes= [felippe,alisson,bruno,lohan,lucas];
+module.exports =estudantes;
