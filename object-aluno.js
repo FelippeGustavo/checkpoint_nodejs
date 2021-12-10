@@ -19,4 +19,7 @@ let envio = function Aluno(nome,quantidadeDeFaltas,notas){
         this.quantidadeDeFaltas+=1;
     };
 };
+
+
+
 module.exports = envio;
